@@ -83,20 +83,8 @@ class DataBaseHelper {
     }
     
     //MARK: - Delete single object
-    func deleteObject<T: Object>(by object: T) {
-        guard let data = realm?.objects(T.self) else { return }
-        do {
-            try realm?.write {
-                realm?.delete(data)
-            }
-        } catch {
-            debugPrint("Error deleting Object: \(error.localizedDescription)")
-        }
-    }
-    
-    //MARK: - Delete multiple object
-    func deleteObjects<T: Object>(by object: List<T>) {
-        guard let data = realm?.objects(T.self) else { return }
+    func deleteObject<T: Object>(by id: UUID,type object: T) {
+        guard let data = realm?.object(ofType: T.self, forPrimaryKey: id) else { return }
         do {
             try realm?.write {
                 realm?.delete(data)

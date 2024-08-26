@@ -34,8 +34,10 @@ final class PersonViewModel {
     
     // Delete a person from the database
     func deletePerson(person: Person) {
-        DataBaseHelper.shared.deleteObjects(by: person.pets)
-        DataBaseHelper.shared.deleteObject(by: person)
+        person.pets.forEach { pet in
+            DataBaseHelper.shared.deleteObject(by: pet.id, type: pet)
+        }
+        DataBaseHelper.shared.deleteObject(by: person.id, type: person)
         getPersons() // Refresh the list
     }
     
