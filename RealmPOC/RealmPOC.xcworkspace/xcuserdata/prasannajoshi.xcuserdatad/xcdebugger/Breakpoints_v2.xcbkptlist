@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2FB6D21F-93CF-429C-B5F8-2E7A752B2350"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "871B2DB7-D07D-4A7A-AE16-3698007D48DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "128383D3-54E4-4670-AE1D-073B7605D2C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealmPOC/Helper/DataBasehelper/DataBaseHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "deleteObjects(by:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "128383D3-54E4-4670-AE1D-073B7605D2C3 - 49a5635d20d992a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealmPOC.DataBaseHelper.deleteObjects&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.RealmSwiftObject&gt;(by: RealmSwift.List&lt;&#x3c4;_0_0&gt;) -&gt; ()"
+                  moduleName = "RealmPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prasannajoshi/Documents/Prasanna/Company/POCCode/GitUploadedPOCs/ios-pocs/RealmPOC/RealmPOC/Helper/DataBasehelper/DataBaseHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101">
+               </Location>
+               <Location
+                  uuid = "128383D3-54E4-4670-AE1D-073B7605D2C3 - 4a3bc042ae58da0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Optional&lt;()&gt; in RealmPOC.DataBaseHelper.deleteObjects&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.RealmSwiftObject&gt;(by: RealmSwift.List&lt;&#x3c4;_0_0&gt;) -&gt; ()"
+                  moduleName = "RealmPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prasannajoshi/Documents/Prasanna/Company/POCCode/GitUploadedPOCs/ios-pocs/RealmPOC/RealmPOC/Helper/DataBasehelper/DataBaseHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

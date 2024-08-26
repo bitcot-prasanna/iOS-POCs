@@ -84,9 +84,10 @@ class DataBaseHelper {
     
     //MARK: - Delete single object
     func deleteObject<T: Object>(by object: T) {
+        guard let data = realm?.objects(T.self) else { return }
         do {
             try realm?.write {
-                realm?.delete(object)
+                realm?.delete(data)
             }
         } catch {
             debugPrint("Error deleting Object: \(error.localizedDescription)")
@@ -95,9 +96,10 @@ class DataBaseHelper {
     
     //MARK: - Delete multiple object
     func deleteObjects<T: Object>(by object: List<T>) {
+        guard let data = realm?.objects(T.self) else { return }
         do {
             try realm?.write {
-                realm?.delete(object)
+                realm?.delete(data)
             }
         } catch {
             debugPrint("Error deleting Object: \(error.localizedDescription)")
